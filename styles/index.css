@@ -100,6 +100,7 @@ a{
     list-style: none;
     float: left;
     padding: 0 10px 0 10px;
+    color: #333333;
 }
 
 .header_nav a:hover{
@@ -214,7 +215,7 @@ a{
 .category_class_bottom{
     width: auto;
     height: 460px;
-    background-color: #000000;
+    background-color: #4affe9;
     position: relative;
 }
 
@@ -232,7 +233,6 @@ a{
     margin: 0 5px;
     border: 2px solid #ffffff;
     border-color: rgba(255, 255, 255, 0.3);
-    /*background-color: #ffffff;*/
 }
 
 .category_class_pager_point:hover{
@@ -240,4 +240,36 @@ a{
     background: rgba(255,255,255,0.4);
     border-color: #757575;
     border-color: rgba(0,0,0,0.4);
+}
+
+.category_class_pager_direction{
+    height: 460px;
+    position: absolute;
+    z-index: 100;
+}
+
+.category_class_pager_direction_left{
+    width: 41px;
+    height: 69px;
+    background: url("../images/icon-slides.png") no-repeat -84px 50%;
+    position: absolute;
+    left: 234px;
+    top: 195px;
+}
+
+.category_class_pager_direction_left:hover{
+    background: url("../images/icon-slides.png") no-repeat 0 50%;
+}
+
+.category_class_pager_direction_right{
+    width: 41px;
+    height: 69px;
+    background: url("../images/icon-slides.png") no-repeat -125px 50%;
+    position: absolute;
+    left: 1185px;
+    top: 195px;
+}
+
+.category_class_pager_direction_right:hover{
+    background: url("../images/icon-slides.png") no-repeat -42px 50%;
 }
