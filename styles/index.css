@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 #top{
     position: relative;
     width: auto;
@@ -252,7 +256,7 @@ a{
 .category_class_pager_direction{
     height: 460px;
     position: absolute;
-    z-index: 100;
+    z-index: 60;
 }
 
 .category_class_pager_direction_left{
@@ -297,3 +301,69 @@ a{
 .category_banner_activity{
     z-index: 50;
 }
+
+.left_classify{
+    position: absolute;
+    width: 234px;
+    height: 420px;
+    z-index: 100;
+    padding: 20px 0;
+    background: rgb(0,0,0,0.6);
+}
+
+.left_classify_box{
+    height: 42px;
+    -ms-text-align-last: right;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 30px;
+    cursor: pointer;
+    line-height: 42px;
+    font-size: 14px;
+}
+
+.left_classify_box:hover{
+    background-color: #ff6700;
+}
+
+.left_classify_box_children{
+    height: 460px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100;
+    left: 234px;
+    top: 0;
+    color: #333333;
+    overflow: auto;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+    display: none;
+}
+
+.left_classify_box_children ul{
+    float: left;
+}
+
+.left_classify_box_children li{
+    width: 248px;
+    height: 76px;
+    position: relative;
+}
+
+.left_classify_box_children a{
+    display: block;
+    padding: 18px 20px;
+}
+
+.left_classify_box_children a:hover{
+    color: #ff6700;
+}
+
+.left_classify_box_children img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 12px;
+}
+
+

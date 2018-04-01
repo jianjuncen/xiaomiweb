@@ -89,4 +89,10 @@ $(document).ready(function () {
      * banner定时滑动效果，5秒后滑动到下一张
      */
     setInterval("$('.category_class_pager_direction_right').click()", 5000);
+
+    $(".left_classify ul").hover(function () {
+        $(this).children("div").show();
+    }, function () {
+        $(this).children("div").hide();
+    })
 });
