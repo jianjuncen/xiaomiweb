@@ -242,6 +242,13 @@ a{
     border-color: rgba(0,0,0,0.4);
 }
 
+.category_class_pager_point_activity{
+    background: #fff;
+    background: rgba(255,255,255,0.4);
+    border-color: #757575;
+    border-color: rgba(0,0,0,0.4);
+}
+
 .category_class_pager_direction{
     height: 460px;
     position: absolute;
