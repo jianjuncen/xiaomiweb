@@ -90,6 +90,9 @@ $(document).ready(function () {
      */
     setInterval("$('.category_class_pager_direction_right').click()", 5000);
 
+    /**
+     * 左侧导航栏子菜单动画
+     */
     $(".left_classify ul").hover(function () {
         $(this).children("div").show();
     }, function () {
